@@ -1,6 +1,6 @@
 enum JobType {
-  remote,
-  on_site,
+  remote
+  on_site
   hybrid
 }
 
