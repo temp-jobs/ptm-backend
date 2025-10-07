@@ -1,13 +1,15 @@
 import express from "express";
 import cors from 'cors'
 import dotenv from "dotenv";
+
+dotenv.config();
 import authRoutes from "./routes/authRoutes";
 import userRoutes from "./routes/userRoutes"
 import jobRoutes from "./routes/jobRoutes";
 // import applicationRoutes from "./routes/applicationRoutes";
 // import savedJobRoutes from "./routes/savedJobRoutes";
 
-dotenv.config();
+
 
 const app = express();
 app.use(cors());
